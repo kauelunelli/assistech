@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background: linear-gradient(45deg, #4ca0d1, #fafafa);
+}
+h1{
+    text-align: center;
+}
+.container_login {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.div_login{
+    margin: 50px 20px;
+}
+
+.div_CPF{
+    display: flex;
+}
+
+.div_senha {
+    margin-top: 47px;
+    display: flex;
+}
+.campo_dados {
+    outline: 0;
+    padding: 6px 0;
+    border-color: #0583F2;
+    border-width: 0 0 1px 0;        
+    width: 100%;
+    font-size: 18px;
+    
+}
+
+.campo_dados:focus {
+    border-color: #0583F2;
+}
+
+.campo_dados:valid + label {
+    color: #0583F2;
+    margin-top: -16px;
+    font-size: 12px;
+}
+
+.campo_dados:focus + label {
+    color: #0583F2;
+    margin-top: -16px;
+    font-size: 12px;
+}
+
+.label_dados { 
+    position: absolute;
+    padding-left: 4px;
+    font-size: 15px;
+    transition: 0.2s;
+}
