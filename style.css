@@ -9,9 +9,14 @@ body{
 h1{
     text-align: center;
 }
+
+.logo-tech{
+    width: 80px;
+    position: absolute;
+}
 .container_login {
     width: 500px;
-    height: 500px;
+    height: 400px;
     border-radius: 10px;
     position: absolute;
     top: 50%;
@@ -32,8 +37,15 @@ h1{
     margin-top: 47px;
     display: flex;
 }
+.bi{
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #0583F2;
+}
 .campo_dados {
     outline: 0;
+    position: relative;
     padding: 6px 0;
     border-color: #0583F2;
     border-width: 0 0 1px 0;        
@@ -63,4 +75,23 @@ h1{
     padding-left: 4px;
     font-size: 15px;
     transition: 0.2s;
+}
+
+.botão{
+    margin-top: 60px;
+    width: 460px;
+    height: 50px;
+    color: white;
+    background-color: #74a9d8;
+    font-size: 12.5px;
+    border-radius: 4px;
+    border: #9696965d 1px solid;
+
+}
+
+.botão:hover {
+    background-color: #0583F2;
+    border: #dadada 1px solid;
+    color: white;
+    cursor: pointer;
 }
